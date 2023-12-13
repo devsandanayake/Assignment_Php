@@ -73,7 +73,7 @@
                     die("Connection failed: " . mysqli_connect_error());
                 }
 
-                // Fetch and display districts from the 'district' table
+                // Fetch and displaycgvhbkjy districts from the 'district' table
                 $sql = "SELECT * FROM district";
                 $result = mysqli_query($conn, $sql);
                 while ($row = mysqli_fetch_assoc($result)) {
